@@ -1,21 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
-
-body {
-    background-image: url(/img/a5d1c225-579c-442a-a7a9-7f7479514504.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
 
 .header {
     text-align: center;
