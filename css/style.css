@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+body {
+    background-image: url(/img/a5d1c225-579c-442a-a7a9-7f7479514504.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1{
+    border-bottom: 1px solid #ffffff;
+    color: #fff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.team {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+.team .score{
+    font-family: "Cursed Timer ULiL", sans-serif;
+    color: #000;
+}
+
+.team.blueteam{
+    border: 10px solid blue;
+    background-color: #fff; 
+    color: blue;
+}
+
+.team.redteam{
+    border: 10px solid red;
+    background-color: #fff; 
+    color: red;
+}
+
+.team.yellowteam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid yellow;
+    background-color: #fff;   
+    color: yellow;
+
+}
+
+.team.greenteam{
+    border: 10px solid green;
+    background-color: #fff; 
+    color: green;  
+}
+
+.team.blackteam{
+    border: 10px solid #000;
+    background-color: #fff;
+    color: #000;  
+}
+
+
+.team.orangeteam{
+    border: 10px solid orange;
+    background-color: #fff;  
+    color: orange; 
+}
+
+
+.score {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-add,
+.btn-remove {
+    display: block;
+    margin: 5px auto;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #45a049;
+}
+
+.btn-remove {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-remove:hover {
+    background-color: #da190b;
+}
+
+.team.first-place {
+    background-color: lightgreen;
+}
+
+.top-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+#btn-end-game{
+    background-color: #000000;
+    margin-TOP: 60px;
+    border: 2px solid #000;
+    padding: 20px;
+    color: #ffffff;
+    border: 5px solid #fff;
+}
+
+#btn-end-game:hover{
+    cursor: pointer;
+}
