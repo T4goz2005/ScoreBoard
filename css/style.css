@@ -74,9 +74,9 @@ body {
 }
 
 .team.blackteam{
-    border: 10px solid #000;
+    border: 10px solid purple;
     background-color: #fff;
-    color: #000;  
+    color: purple;  
 }
 
 
