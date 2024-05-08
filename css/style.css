@@ -65,8 +65,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 10px solid yellow;
-    background-color: yellow;   
+    border: 10px solid#FFCE00;
+    background-color:#FFCE00;   
     color:#fff;
 
 }
@@ -99,8 +99,8 @@
 
 
 .team.orangeteam{
-    border: 10px solid orange;
-    background-color: orange;  
+    border: 10px solid rgb(211, 139, 7);
+    background-color:  rgb(211, 139, 7);  
     color: #fff; 
 }
 
@@ -122,21 +122,24 @@
     padding: 6px 12px;
     cursor: pointer;
     font-size: 20px;
-    margin-topm: 20px;
+    margin-top: 20px;
 }
 
 .btn-add {
     background-color: #4CAF50;
     color: white;
+    font-family: 'Sora', Tahoma, Geneva;
 }
 
 .btn-add:hover {
     background-color: #45a049;
+    cursor: pointer;
 }
 
 .btn-remove {
     background-color: #f44336;
     color: white;
+    font-family: 'Sora', Tahoma, Geneva;
 }
 
 .btn-remove:hover {
@@ -179,8 +182,4 @@
 
 .points {
     display: flex;
-}
-
-.info{
-    color
 }
