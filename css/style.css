@@ -99,8 +99,8 @@
 
 
 .team.orangeteam{
-    border: 10px solid rgb(211, 139, 7);
-    background-color:  rgb(211, 139, 7);  
+    border: 10px solid #FF4D00;
+    background-color:  #FF4D00;  
     color: #fff; 
 }
 
@@ -128,6 +128,8 @@
 .btn-add {
     background-color: #4CAF50;
     color: white;
+    border-radius: 10px;
+    border: 3px solid black;
     font-family: 'Sora', Tahoma, Geneva;
 }
 
@@ -140,6 +142,8 @@
     background-color: #f44336;
     color: white;
     font-family: 'Sora', Tahoma, Geneva;
+    border: 3px solid black;
+
 }
 
 .btn-remove:hover {
