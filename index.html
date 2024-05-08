@@ -8,76 +8,93 @@
 
     <style>
         body{
-            background-image: url(img/a5d1c225-579c-442a-a7a9-7f7479514504.jpg);
+            background-image: url(/img/backgorundScoreBoard.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            font-family: "Montserrat", sans-serif;
+            font-family: "Sora", sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            flex-direction: column;
         }
     </style>
     
 </head>
 <body>
-    <header class="header">
-        <h1>PLACAR HUB OLYMPICS</h1>
-    </header>
+    <div  class="info">    
+        <header class="header">
+        <h1>PLACAR <br> HUB
+             OLYMPICS</h1>
+        </header>
+
+            
+    <button id="btn-end-game">ENCERRAR OLIMPIADAS</button>
+    </div>
+
     <div class="container">
     <div class="team blueteam" id="team1">
+
+
             <h2>AZUL</h2>
+
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button>
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
         <div class="team redteam" id="team2">
             
             <h2>VERMELHO</h2>
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button> 
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
         <div class="team yellowteam" id="team3">
             <h2>AMARELO</h2>
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button>
+
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
         <div class="team greenteam" id="team4">
             <h2>VERDE</h2>
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button>
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
         <div class="team blackteam" id="team5">
             <h2>ROXO</h2>
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button>
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
         <div class="team orangeteam" id="team6">
             <h2>LARANJA</h2>
             <div class="score">0</div>
-            <button class="btn-add">+10</button>
-            <button class="btn-add">+5</button>
-            <button class="btn-remove">-1</button>
+            <div class="points"> 
+                <button class="btn-add">+10</button>
+                <button class="btn-add">+5</button>
+                <button class="btn-remove">-1</button>
+            </div>
         </div>
     </div>
-
-
-
-    <button id="btn-end-game">ENCERRAR OLIMPIADAS</button>
-
 
     <script src="btn-encerrar.js"></script>
 </body>
